@@ -297,9 +297,9 @@ footer p:last-child {
 
 @media screen and ((max-width: 60rem) and (min-width: 40rem)) {
 
-    .showcase {
+    /* .showcase {
         height: 65vh;
-    }
+    } */
 
     .showcase-content h1 {
         width: 50rem;
@@ -385,9 +385,9 @@ footer p:last-child {
 }
 
 @media screen and (max-width: 40rem){
-    .showcase {
+    /* .showcase {
         height: 65vh;
-    }
+    } */
     
     .showcase-top img {
         width: 10rem;
