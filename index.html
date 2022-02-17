@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <title>Netflix</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./asset/favicon/site.webmanifest">
 </head>
 <body>
     <header class="showcase">
@@ -24,16 +28,16 @@
             <p>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</p>
             <ul class="life">
                 <li><input type="email" name="email" id="mail" placeholder="Adresse e-mail"></li><!--
-             --><li><a href="#" class="btn btn-lg">Commencer ></a></li>
+             --><li><a href="formulaire.html" class="btn btn-lg">Commencer ></a></li>
             </ul>
         </section>
     </header>
 
     <main>
 
-        <div class="style-cards">
+        <div class="style-cards" role="doc-cover" aria-labelledby="presentation">
 
-            <figure class="card-0">
+            <figure class="card-0" id="presentation">
                 <figcaption class="desc">
                     <h3>Regardez Netflix sur votre TV.</h3>
                     <p>Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et bien plus.</p>
@@ -74,8 +78,8 @@
 
         </div>
 
-        <div class="faq">
-            <section class="lastsec">
+        <div class="faq" role="definition" aria-labelledby="def">
+            <section class="lastsec" id="def">
                 <h2>Foire aux questions</h2>
                 <ul class="questions">
                     <li>Netflix, qu'est-ce que c'est ? <button  class="toggle"><i class="fas fa-plus ouvrir"></i></button></li>
@@ -104,7 +108,7 @@
                 <nav class="showcase-content">
                     <ul class="life">
                         <li><input type="email" name="email2" id="mail2" placeholder="Adresse e-mail"></li><!--
-                     --><li><a href="#" class="btn btn-lg">Commencer ></a></li>
+                     --><li><a href="formulaire.html" class="btn btn-lg">Commencer ></a></li>
                     </ul>
                 </nav>
             </section>

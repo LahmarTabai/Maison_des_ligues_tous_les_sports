@@ -253,15 +253,13 @@ footer p:first-child {
 
 footer p:last-child {
     margin-top: 2rem;
-}
+}ç
 
 .footer-cols {
-  
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: .1rem;
-    
-}
+} 
 
 .questions button  {
     float: right;
@@ -283,6 +281,14 @@ footer p:last-child {
 .hidden:nth-child(2n + 2) {
     margin-top: -.7rem;
 }
+
+.footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: .1rem;
+}
+
+
 
 @media screen and ((max-width: 92.625rem) and (min-width: 60rem)) {
 
