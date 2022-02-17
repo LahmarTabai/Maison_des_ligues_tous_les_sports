@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let icoferm = '<i class="fas fa-times fermer"></i>';
 
     for (let i = 0; i < btn.length; i++) {
-        btn[i].addEventListener("click", function (e) {
+        btn[i].addEventListener("click", (e) =>{
             if (btn[i].innerHTML.match('<i class="fas fa-bars ouvrir"></i>')) {
                 btn[i].innerHTML = icoferm;
-                header.style.background = "#000";
+                header.style.background = "#000";/* voir le noir */
             } else if (btn[i].innerHTML.match('<i class="fas fa-times fermer"></i>')) {
                 btn[i].innerHTML = '<i class="fas fa-bars ouvrir"></i>';
                 header.style.background = "";

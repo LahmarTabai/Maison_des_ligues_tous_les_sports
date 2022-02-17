@@ -197,10 +197,10 @@ footer p:last-child {
         width: 100%;
         display: block;
         height: 70rem;
-        background-color: #000;
+        background-color: rgba(0,0,0,0.5);
         padding: 2rem;
         transform: translateX(-120%);
-        transition: transform 3s;
+        transition: transform .6s;
     }
 
     header {
