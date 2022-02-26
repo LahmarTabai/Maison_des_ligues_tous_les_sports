@@ -19,17 +19,22 @@
         <nav>
             <ul class="showcase-top">
                 <li><img src="./asset/Netflix-Logo.wine.svg" alt="Netflix Logo"></li><!-- whitespace
-             --><li><a href="#" class="btn btn-rounded">S'identifier</a></li>
+             --><li><a href="formulaire.html" class="btn btn-rounded">S'identifier</a></li>
             </ul>
         </nav>
         <section class="showcase-content">
             <h1>Films, séries TV et bien plus en illimité.</h1>
             <h2>Où que vous soyez. Annulez à tout moment.</h2>
             <p>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</p>
-            <ul class="life">
-                <li><input type="email" name="email" id="mail" placeholder="Adresse e-mail"></li><!--
-             --><li><a href="formulaire.html" class="btn btn-lg">Commencer ></a></li>
-            </ul>
+            
+            <form method="get" action="formulaire.html" class="life">
+
+                <input type="email" name="email1" id="mail1" placeholder="Adresse e-mail">
+                <button id="but1" type="submit" class="btn btn-lg">Commencer ></button>
+               
+            </form>
+            <span id="mail_manquant1"></span>
+
         </section>
     </header>
 
@@ -106,10 +111,11 @@
             <section>
                 <h2 class="terr">Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</h2>
                 <nav class="showcase-content">
-                    <ul class="life">
-                        <li><input type="email" name="email2" id="mail2" placeholder="Adresse e-mail"></li><!--
-                     --><li><a href="formulaire.html" class="btn btn-lg">Commencer ></a></li>
-                    </ul>
+                    <form method="get" action="formulaire.html" class="life">
+                        <input type="email" name="email2" id="mail2" placeholder="Adresse e-mail">
+                        <button id="but2" type="submit" class="btn btn-lg">Commencer ></button>
+                    </form>
+                    <span id="mail_manquant2"></span>
                 </nav>
             </section>
         </div>

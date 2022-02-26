@@ -171,7 +171,7 @@ footer p:last-child {
 }
 
 #compte {
-    margin-left: 55rem;
+    margin-left: 70rem;
 }
 
 
@@ -197,7 +197,7 @@ footer p:last-child {
         width: 100%;
         display: block;
         height: 70rem;
-        background-color: rgba(0,0,0,0.5);
+        /* background-color: rgba(0,0,0,0.5); */
         padding: 2rem;
         transform: translateX(-120%);
         transition: transform .6s;
@@ -215,9 +215,7 @@ footer p:last-child {
         text-align: center;
     }
 
-    /* .onglets li:last-child {
-        
-    } */
+  
 
     header nav ul li img {
         
@@ -264,15 +262,22 @@ footer p:last-child {
         width: 100%;
         border-radius: 2rem;
         font-size: 2.5rem;
-        
+        height: 100%;
     }
 
     nav .onglets li {
         border: #353636 solid .1rem;
         border-radius: 2rem;
         background-color: rgb(44, 43, 41);
-        margin-bottom: 2rem;
+        margin-bottom: .1rem;
         margin-left: 0;
+        height: 7.5rem;
+        width: 28rem;
+        margin: 0 auto;
+    }
+
+    #compte {
+        margin: 0 auto;
     }
 
    

@@ -113,7 +113,7 @@ body {
 
 .showcase-content input {
     display: block;
-    width: 100%;
+    width: 50rem;
     font-size: 1.5rem;
     padding-left: 0.5rem;
     line-height: 3.77rem;
@@ -316,14 +316,15 @@ footer p:last-child {
 
     .life {
         display: block;
+        width: 60rem;
     }
 
-    .life li {
-        display: block;
-        width: 50rem;
-    }
+    .life input, .life button {
+        /* display: block; */
+        width: 100%;
+    } 
 
-    .showcase-content input, .life a {
+    .showcase-content input {
         display: block;
         width: 100%;
         margin: 1rem auto;
@@ -430,14 +431,15 @@ footer p:last-child {
 
     .life {
         display: block;
-    }
-
-    .life li {
-        display: block;
         width: 30rem;
     }
 
-    .showcase-content input, .life a {
+    /* .life  {
+        display: block;
+        max-width: 30rem;
+    } */
+
+    .showcase-content input, .life button {
         display: block;
         width: 100%;
         margin: 1rem auto;
@@ -499,4 +501,13 @@ footer p:last-child {
 
 
 
+}
+
+
+#mail_manquant1, #mail_manquant2 {
+    display: block;
+    line-height: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: red;
 }
