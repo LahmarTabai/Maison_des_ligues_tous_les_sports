@@ -113,10 +113,11 @@ body {
 
 .showcase-content input {
     display: block;
-    width: 50rem;
+    width: 70rem;
     font-size: 1.5rem;
     padding-left: 0.5rem;
     line-height: 3.77rem;
+    margin-left: 3rem;
 }
 
 .showcase-content .btn-lg {

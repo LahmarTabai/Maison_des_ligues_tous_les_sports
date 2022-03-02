@@ -41,6 +41,7 @@ nav .onglets li {
 
 nav .onglets li a {
     color: #909191;
+    margin-left: 2rem;
 }
 
 nav .onglets li a:hover {
@@ -263,6 +264,7 @@ footer p:last-child {
         border-radius: 2rem;
         font-size: 2.5rem;
         height: 100%;
+        margin-left: 0;
     }
 
     nav .onglets li {
@@ -295,12 +297,6 @@ footer p:last-child {
         padding: 2rem;
     }
 
-    
-    
-
-    
-
- 
 
  
 } 
