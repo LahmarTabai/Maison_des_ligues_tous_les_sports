@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let btnValidclass = document.querySelectorAll(".mail");
 
   for (let i = 0; i < btnValid.length; i++) {
-    btnValid[i].addEventListener("click", function (e) {
+    btnValid[i].addEventListener("click", e => {
       if (mail_v.test(btnValidclass[i].value)) {
         mail_m[i].textContent = "";
         const user = {
