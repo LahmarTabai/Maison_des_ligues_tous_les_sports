@@ -5,6 +5,36 @@ document.addEventListener("DOMContentLoaded", () => {
   const local = JSON.parse(localStorage.getItem("user"));
   let res = document.getElementById("mail");
   res.value = `${local.identifiant}`;
+
+  const form = {
+    name: document.getElementsByName("name")[0],
+    first_name: document.getElementsByName("firstname")[0],
+    mail: document.getElementsByName("mail")[0],
+    city: document.getElementsByName("city")[0],
+    country: document.getElementsByName("country")[0],
+    btn_validation: document.querySelector("button"),
+    warning: document.querySelector(".warning"),
+    info: [],
+    control() {
+      if (this.first_name.value && this.name.value && this.mail.value && this.city.value && this.country.value) {
+
+        form.info.push(this.first_name.value, this.name.value, this.mail.value, this.city.value, this.country.value);
+
+        localStorage.clear();
+        localStorage.setItem('User', JSON.stringify(form.info));
+
+        form.warning.classList.remove("show-warning");
+      } else {
+        form.warning.classList.add("show-warning");
+        form.warning.innerText = "Veillez Remplir tous les champs";
+      }
+    }
+  };
+
+  form.btn_validation.addEventListener("click", e => {
+
+    form.control();
+  });
 });
 
 // /*-------------------- Recupération du 1er mail ----------------------- */

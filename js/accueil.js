@@ -20,9 +20,15 @@ document.addEventListener("DOMContentLoaded", e => {
 
     /*----------------------- Partie Identifiant -------------------------*/
 
-    const local = JSON.parse(localStorage.getItem("user"));
-    let tark = local.identifiant;
-    let ident = tark.substring(0, tark.indexOf('@'));
+    // const local = JSON.parse(localStorage.getItem("user"));
+    // let tark = local.identifiant;
+    // let ident = tark.substring(0, tark.indexOf('@'));
+
+    // let res = document.getElementById("compte");
+
+
+    const local = JSON.parse(localStorage.getItem("User"));
+    let ident = local[0];
 
     let res = document.getElementById("compte");
 

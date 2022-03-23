@@ -91,7 +91,7 @@ select::placeholder, input::placeholder {
 
 .sign li {
     display: block;
-    width: 20rem;
+    width: 15rem;
     background-color: #e50914;
     margin: 0 auto;
     border: .1rem solid #e50914;
@@ -100,12 +100,17 @@ select::placeholder, input::placeholder {
     text-align: center;
 }
 
-.sign li a {
+.sign li:hover {
+    box-shadow: 0 0 1.5rem #ffffff;
+}
+
+.sign li button {
     display: block;
+    margin: 0 auto;
+    line-height: 4rem;
     width: 100%;
     color: #fff;
-    font-size: x-large;
-    font-weight: bolder;
+    font-size: large;
 }
 
 .nar li {
@@ -173,8 +178,18 @@ footer p:last-child {
     footer {
         display: none;    
     }
+}
 
-    
-
-
+.warning{
+    background-color: #e50914;
+    margin-top: 1.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    color: #fff;
+    font-weight: 800;
+    font-style: 2rem;
+    display: none;
+}
+.show-warning{
+    display: block;
 }
