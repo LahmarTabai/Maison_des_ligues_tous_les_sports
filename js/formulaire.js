@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   form.btn_validation.addEventListener("click", e => {
-
     form.control();
   });
 });
