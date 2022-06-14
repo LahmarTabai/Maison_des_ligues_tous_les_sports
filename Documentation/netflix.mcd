@@ -1,0 +1,10 @@
+
+
+USERS: Id_user, Nom_user, Prénom_user, Mail_user, City_user, Country_user
+AVOIR, 01 USERS, 01 PANIER
+PANIER: Id_panier, image_film, nom_film, presentation, date
+
+
+FILMS: id_film, image_film, nom_ film, presentation, date
+PROGRAMMES: id_prog, image_film, nom_ film, presentation, date
+SERIES: id_Serie, image_film, nom_ film, presentation, date

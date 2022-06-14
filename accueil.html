@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Netflix</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./asset/favicon/site.webmanifest">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/acceuil.css">
+</head>
+<body>
+    <header>
+        <nav  class="gauche">
+            <ul class="parent">
+                <li><img src="./asset/MAMA.png" alt="Logo Netflix"></li>
+                <li><button  class="toggle"><i class="fas fa-bars ouvrir" aria-hidden="true"></i></button></li>
+            </ul>
+
+            <ul class="onglets">
+                <li><a href="accueil.html">Sports Individuels</a></li>
+                <li><a href="#series">Sports Collectifs</a></li>
+                <li><a href="#films">Top Records</a></li>
+                <li id="compte"></li>
+                
+            </ul>
+        </nav>
+
+       
+    </header>
+
+    <main>
+        <div class="films-et-series" role="cell" aria-labelledby="imges">
+        <section class="section tendances" id="imges">
+            <h2 id="series">Sports Individuels</h2>
+                <ul class="list">
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Athlétisme/df.jpg" 
+                        data-title="The Road Trick" 
+                        data-description="Trick (en japonais トリック, torikku) est une série télévisée japonaise en trois saisons, réalisée par Yukihiko Tsutsumi, et auxquelles s'ajoutent deux épisodes spéciaux et trois films, diffusée de 2000 à 2003 par TV Asahi. Elle narre les aventures d'une magicienne et d'un physicien, interprétés par Yukie Nakama et Abe Hiroshi, qui démasquent de faux médiums à travers le Japon." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Athlétisme/df.jpg" alt="The Road Trick">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Aviron/aviron.jpg" 
+                        data-title="Wynonna Earp" 
+                        data-description="Wynonna Earp est une série télévisée canado-américaine en 49 épisodes de 41-43 minutes, développée par Emily Andras et diffusée aux États-Unis entre le 1er avril 2016 et le 9 avril 20211 sur Syfy et au Canada, entre le 4 avril 2016 et le 9 avril 2021 sur CHCH-DT pour la première saison2 puis sur Space / CTV Sci-Fi Channel pour les saisons suivantes3." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Aviron/aviron.jpg" alt="Wynonna Earp">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Badminton/Badminton.jpg" 
+                        data-title="Club de Cuervos" 
+                        data-description="Dans cette série proposée par les créateurs de “Nosotros los Nobles”, un frère et une sœur s'affrontent au sujet de l'équipe de football dont ils ont hérité." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Badminton/Badminton.jpg" alt="Club de Cuervos">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Boxe/s-combat-boxe.jpg" 
+                        data-title="Greys Anatomy" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Boxe/s-combat-boxe.jpg" alt="Greys Anatomy">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Canoë-kayak/eduard.jpg" 
+                        data-title="Step up 2" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Canoë-kayak/eduard.jpg" alt="Step up 2">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Cyclisme/tom-photo-cycling-gMcgS7race0-unsplash.jpg" 
+                        data-title="Liquid Science" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Cyclisme/tom-photo-cycling-gMcgS7race0-unsplash.jpg" alt="Liquid Science">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Equitation/photo-1512934772407-b292436089ee.avif" 
+                        data-title="13 Reason Why" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Equitation/photo-1512934772407-b292436089ee.avif" alt="13 Reason Why">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Escalade/photo-1640182655141-c0cc8514049e.avif" 
+                        data-title="The Staircase" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Escalade/photo-1640182655141-c0cc8514049e.avif" alt="The Staircase">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                            Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Escrime/nathanael-desmeules-0gQOp8Z1evg-unsplash.jpg" 
+                        data-title="The Vietnam War" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Escrime/nathanael-desmeules-0gQOp8Z1evg-unsplash.jpg" alt="The Vietnam War">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Golf/photo-1611374243147-44a702c2d44c.avif" 
+                        data-title="The Covenan plus" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Golf/photo-1611374243147-44a702c2d44c.avif" alt="The Covenan plus">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Gymnastique/eugene-lim-pOwltFP-q30-unsplash.jpg" 
+                        data-title="Marcella" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Gymnastique/eugene-lim-pOwltFP-q30-unsplash.jpg" alt="Marcella">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+
+                    <li 
+                        data-image="./asset/Sports/Sports_Indiv/Haltérophilie/Haltérophilie.jpg" 
+                        data-title="Riverdale" 
+                        data-description="Grey's Anatomy ou Dre Grey, leçons d'anatomie au Québec est une série télévisée médicale américaine, créée par Shonda Rhimes et diffusée depuis le 27 mars 2005 sur le réseau ABC et en simultané sur le réseau CTV au Canada.
+                        La série en est actuellement à sa dix-huitième saison. Le 11 janvier 2022, est annoncé que la série renouvelée pour une dix-neuvième saison.
+                        Le 28 février 2019, elle devient la série médicale de première partie de soirée la plus longue des États-Unis avec 365 épisodes au compteur, dépassant ainsi Urgences." 
+                        data-dates="02/01/2020">
+                            <figure class="ham">
+                                <img src="./asset/Sports/Sports_Indiv/Haltérophilie/Haltérophilie.jpg" alt="Riverdale">
+                                    <figcaption class="figma">
+                                        <h2>
+                                            <i class="material-icons" aria-hidden="true">
+                                                pages
+                                            </i>
+                                                Show
+                                        </h2>
+                                    </figcaption>
+                            </figure>
+                    </li>
+            </ul>
+
+        </section>
+
+        <section class="section tendances">
+            <h2 id="films">Sports Collectifs</h2>
+            <ul class="list">
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Baseball/Baseball.jpg" alt="Hawai Five-O"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/BasketBall/th.jpg" alt="Luke Cage"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Beach_handball/beach_handball.jpg" alt="The Flash"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Beach_soccer/soccer.jpg" alt="Black Lightning"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Cricket/michael-weir.jpg" alt="New Girl"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Football/football.jpg" alt="Dc Legends of Tomorrow"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Handball/HandBall.jpg" alt="Agent of S.H.I.E.L.D"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Hockey_sur_gazon/Hokey_sur_gason.jpg" alt="Marlon"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Hockey_sur_glace/Hokey.jpg" alt="Cooking"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Nat_synch/B9718931537Z.1_20190320190757_000+G52D6RC98.1-0.jpg" alt="Queer Eye"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Rugby_à_VIIN/Rugby_à_VIIN.jpg" alt="Shooter"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/SoftBall/christine-von-raesfeld-LEx4Z5Qd3C8-unsplash.jpg" alt="Jessica Jones"></a></li>
+            </ul>
+
+        </section>
+
+        <section class="section tendances">
+            <h2 id="programmes">Le top 7 des records du monde les plus impressionnants</h2>
+            <ul class="list">
+                <li><a href=""><img src="./asset/Sports/Sports_Indiv/Natation/Natation.jpg" alt="Wanted"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_Indiv/Judo/judo-et-sante.jpg" alt="The Born Ultimatum"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_collectif/Football/football.jpg" alt="Guardians of The Galaxy"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_Indiv/Golf/photo-1611374243147-44a702c2d44c.avif" alt="National Treasure"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_Indiv/Escrime/nathanael-desmeules-0gQOp8Z1evg-unsplash.jpg" alt="Bad Boys"></a></li>
+                <li><a href=""><img src="./asset/Sports/Records/Kendra_Harrison/kendra-harrison-1920x1054.jpg" alt="Bright"></a></li>
+                <li><a href=""><img src="./asset/Sports/Sports_Indiv/Aviron/aviron.jpg" alt="Cooking"></a></li>
+            </ul>
+
+        </section>
+
+
+        
+    </div>
+    </main>
+
+    <footer>
+        <p>Des questions ? Appelez le (+33) 0805-543-063</p>
+        <nav>
+            <ul class="footer-cols">
+                <li><a href="#">FAQ</a></li><!-- 
+             --><li><a href="#">Relations Investisseurs</a></li><!-- 
+             --><li><a href="#">Modes de lecture</a></li><!--
+             --><li><a href="#">Mentions légales</a></li><!--
+             --><li><a href="#">Seulement sur Netflix</a></li><!-- 
+             --><li><a href="#">Centre d'aide</a></li><!--
+             --><li><a href="#">Recrutement</a></li><!--
+             --><li><a href="#">Conditions d'utilisation</a></li><!-- 
+             --><li><a href="#">Nous contacter</a></li><!--
+             --><li><a href="#">Compte</a></li><!--
+             --><li><a href="#">Utiliser des cartes cadeaux</a></li><!-- 
+             --><li><a href="#">Confidentialité</a></li><!-- 
+             --><li><a href="#">Test de vitesse</a></li><!--
+             --><li><a href="#">Presse</a></li><!--
+             --><li><a href="#">Acheter des cartes cadeaux</a></li><!-- 
+             --><li><a href="#">Préférences de cookies</a></li><!--
+             --><li><a href="#">Informations légales</a></li>
+            </ul>
+        </nav>
+        <p>MDL France</p>
+    </footer>
+
+    <!-- modale -->
+<div class="parent-modale" role="dialog">
+    <figure class="modale">
+        <button aria-label="closed">
+            <span class="material-icons">clear</span>
+        </button>
+        <img src="https://via.placeholder.com/500" alt="picture">
+        <figcaption class="desc">
+            <h3>title</h3>
+            <p>
+                Years :
+            </p>
+            <time>Years : </time>
+        </figcaption>
+    </figure>
+</div>
+
+    <script src="./js/accueil.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "* HTML<sup>5</sup>\r * CSS<sub>3<sub>\r * js\r * PHP\r * Versioning",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --no-babelrc src -w -d js --preset=env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LahmarTabai/Netflix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LahmarTabai/Netflix/issues"
+  },
+  "homepage": "https://github.com/LahmarTabai/Netflix#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
